@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4C938B2C1D2E1C00D1E5C1 /* OneHand Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BD4C938A2C1D2E1C00D1E5C1 /* OneHand Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD4C93902C1D2E1C00D1E5C1 /* OneHandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C938F2C1D2E1C00D1E5C1 /* OneHandApp.swift */; };
+		BD4C93922C1D2E1C00D1E5C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93912C1D2E1C00D1E5C1 /* ContentView.swift */; };
+		BD4C93942C1D2E1E00D1E5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4C93932C1D2E1E00D1E5C1 /* Assets.xcassets */; };
+		BD4C93972C1D2E1E00D1E5C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4C93962C1D2E1E00D1E5C1 /* Preview Assets.xcassets */; };
+		BD4C93A12C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93A02C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift */; };
+		BD4C93AB2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93AA2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift */; };
+		BD4C93AD2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93AC2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4C938C2C1D2E1C00D1E5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4C937E2C1D2E1C00D1E5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4C93892C1D2E1C00D1E5C1;
+			remoteInfo = "OneHand Watch App";
+		};
+		BD4C939D2C1D2E1E00D1E5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4C937E2C1D2E1C00D1E5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4C93892C1D2E1C00D1E5C1;
+			remoteInfo = "OneHand Watch App";
+		};
+		BD4C93A72C1D2E1E00D1E5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4C937E2C1D2E1C00D1E5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4C93892C1D2E1C00D1E5C1;
+			remoteInfo = "OneHand Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD4C93B32C1D2E1E00D1E5C1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BD4C938B2C1D2E1C00D1E5C1 /* OneHand Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD4C93842C1D2E1C00D1E5C1 /* OneHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4C938A2C1D2E1C00D1E5C1 /* OneHand Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneHand Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4C938F2C1D2E1C00D1E5C1 /* OneHandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHandApp.swift; sourceTree = "<group>"; };
+		BD4C93912C1D2E1C00D1E5C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD4C93932C1D2E1E00D1E5C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4C93962C1D2E1E00D1E5C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD4C939C2C1D2E1E00D1E5C1 /* OneHand Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneHand Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4C93A02C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHand_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BD4C93A62C1D2E1E00D1E5C1 /* OneHand Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneHand Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4C93AA2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHand_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BD4C93AC2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHand_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4C93872C1D2E1C00D1E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93992C1D2E1E00D1E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93A32C1D2E1E00D1E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4C937D2C1D2E1C00D1E5C1 = {
+			isa = PBXGroup;
+			children = (
+				BD4C938E2C1D2E1C00D1E5C1 /* OneHand Watch App */,
+				BD4C939F2C1D2E1E00D1E5C1 /* OneHand Watch AppTests */,
+				BD4C93A92C1D2E1E00D1E5C1 /* OneHand Watch AppUITests */,
+				BD4C93852C1D2E1C00D1E5C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4C93852C1D2E1C00D1E5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C93842C1D2E1C00D1E5C1 /* OneHand.app */,
+				BD4C938A2C1D2E1C00D1E5C1 /* OneHand Watch App.app */,
+				BD4C939C2C1D2E1E00D1E5C1 /* OneHand Watch AppTests.xctest */,
+				BD4C93A62C1D2E1E00D1E5C1 /* OneHand Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4C938E2C1D2E1C00D1E5C1 /* OneHand Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C938F2C1D2E1C00D1E5C1 /* OneHandApp.swift */,
+				BD4C93912C1D2E1C00D1E5C1 /* ContentView.swift */,
+				BD4C93932C1D2E1E00D1E5C1 /* Assets.xcassets */,
+				BD4C93952C1D2E1E00D1E5C1 /* Preview Content */,
+			);
+			path = "OneHand Watch App";
+			sourceTree = "<group>";
+		};
+		BD4C93952C1D2E1E00D1E5C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C93962C1D2E1E00D1E5C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD4C939F2C1D2E1E00D1E5C1 /* OneHand Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C93A02C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift */,
+			);
+			path = "OneHand Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BD4C93A92C1D2E1E00D1E5C1 /* OneHand Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C93AA2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift */,
+				BD4C93AC2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "OneHand Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4C93832C1D2E1C00D1E5C1 /* OneHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4C93B42C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand" */;
+			buildPhases = (
+				BD4C93822C1D2E1C00D1E5C1 /* Resources */,
+				BD4C93B32C1D2E1E00D1E5C1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4C938D2C1D2E1C00D1E5C1 /* PBXTargetDependency */,
+			);
+			name = OneHand;
+			productName = OneHand;
+			productReference = BD4C93842C1D2E1C00D1E5C1 /* OneHand.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BD4C93892C1D2E1C00D1E5C1 /* OneHand Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4C93B02C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch App" */;
+			buildPhases = (
+				BD4C93862C1D2E1C00D1E5C1 /* Sources */,
+				BD4C93872C1D2E1C00D1E5C1 /* Frameworks */,
+				BD4C93882C1D2E1C00D1E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneHand Watch App";
+			productName = "OneHand Watch App";
+			productReference = BD4C938A2C1D2E1C00D1E5C1 /* OneHand Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4C939B2C1D2E1E00D1E5C1 /* OneHand Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4C93B72C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch AppTests" */;
+			buildPhases = (
+				BD4C93982C1D2E1E00D1E5C1 /* Sources */,
+				BD4C93992C1D2E1E00D1E5C1 /* Frameworks */,
+				BD4C939A2C1D2E1E00D1E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4C939E2C1D2E1E00D1E5C1 /* PBXTargetDependency */,
+			);
+			name = "OneHand Watch AppTests";
+			productName = "OneHand Watch AppTests";
+			productReference = BD4C939C2C1D2E1E00D1E5C1 /* OneHand Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4C93A52C1D2E1E00D1E5C1 /* OneHand Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4C93BA2C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch AppUITests" */;
+			buildPhases = (
+				BD4C93A22C1D2E1E00D1E5C1 /* Sources */,
+				BD4C93A32C1D2E1E00D1E5C1 /* Frameworks */,
+				BD4C93A42C1D2E1E00D1E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4C93A82C1D2E1E00D1E5C1 /* PBXTargetDependency */,
+			);
+			name = "OneHand Watch AppUITests";
+			productName = "OneHand Watch AppUITests";
+			productReference = BD4C93A62C1D2E1E00D1E5C1 /* OneHand Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4C937E2C1D2E1C00D1E5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD4C93832C1D2E1C00D1E5C1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD4C93892C1D2E1C00D1E5C1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD4C939B2C1D2E1E00D1E5C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD4C93892C1D2E1C00D1E5C1;
+					};
+					BD4C93A52C1D2E1E00D1E5C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD4C93892C1D2E1C00D1E5C1;
+					};
+				};
+			};
+			buildConfigurationList = BD4C93812C1D2E1C00D1E5C1 /* Build configuration list for PBXProject "OneHand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4C937D2C1D2E1C00D1E5C1;
+			productRefGroup = BD4C93852C1D2E1C00D1E5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4C93832C1D2E1C00D1E5C1 /* OneHand */,
+				BD4C93892C1D2E1C00D1E5C1 /* OneHand Watch App */,
+				BD4C939B2C1D2E1E00D1E5C1 /* OneHand Watch AppTests */,
+				BD4C93A52C1D2E1E00D1E5C1 /* OneHand Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4C93822C1D2E1C00D1E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93882C1D2E1C00D1E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C93972C1D2E1E00D1E5C1 /* Preview Assets.xcassets in Resources */,
+				BD4C93942C1D2E1E00D1E5C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C939A2C1D2E1E00D1E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93A42C1D2E1E00D1E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4C93862C1D2E1C00D1E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C93922C1D2E1C00D1E5C1 /* ContentView.swift in Sources */,
+				BD4C93902C1D2E1C00D1E5C1 /* OneHandApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93982C1D2E1E00D1E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C93A12C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4C93A22C1D2E1E00D1E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C93AD2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BD4C93AB2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4C938D2C1D2E1C00D1E5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4C93892C1D2E1C00D1E5C1 /* OneHand Watch App */;
+			targetProxy = BD4C938C2C1D2E1C00D1E5C1 /* PBXContainerItemProxy */;
+		};
+		BD4C939E2C1D2E1E00D1E5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4C93892C1D2E1C00D1E5C1 /* OneHand Watch App */;
+			targetProxy = BD4C939D2C1D2E1E00D1E5C1 /* PBXContainerItemProxy */;
+		};
+		BD4C93A82C1D2E1E00D1E5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4C93892C1D2E1C00D1E5C1 /* OneHand Watch App */;
+			targetProxy = BD4C93A72C1D2E1E00D1E5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD4C93AE2C1D2E1E00D1E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD4C93AF2C1D2E1E00D1E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BD4C93B12C1D2E1E00D1E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneHand Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OneHand;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alzafacon.OneHand.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BD4C93B22C1D2E1E00D1E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneHand Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OneHand;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alzafacon.OneHand.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		BD4C93B52C1D2E1E00D1E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = OneHand;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alzafacon.OneHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD4C93B62C1D2E1E00D1E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = OneHand;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alzafacon.OneHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4C93B82C1D2E1E00D1E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzafacon.OneHand-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHand Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneHand Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BD4C93B92C1D2E1E00D1E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzafacon.OneHand-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHand Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneHand Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		BD4C93BB2C1D2E1E00D1E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzafacon.OneHand-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OneHand Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		BD4C93BC2C1D2E1E00D1E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzafacon.OneHand-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OneHand Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4C93812C1D2E1C00D1E5C1 /* Build configuration list for PBXProject "OneHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4C93AE2C1D2E1E00D1E5C1 /* Debug */,
+				BD4C93AF2C1D2E1E00D1E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4C93B02C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4C93B12C1D2E1E00D1E5C1 /* Debug */,
+				BD4C93B22C1D2E1E00D1E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4C93B42C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4C93B52C1D2E1E00D1E5C1 /* Debug */,
+				BD4C93B62C1D2E1E00D1E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4C93B72C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4C93B82C1D2E1E00D1E5C1 /* Debug */,
+				BD4C93B92C1D2E1E00D1E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4C93BA2C1D2E1E00D1E5C1 /* Build configuration list for PBXNativeTarget "OneHand Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4C93BB2C1D2E1E00D1E5C1 /* Debug */,
+				BD4C93BC2C1D2E1E00D1E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4C937E2C1D2E1C00D1E5C1 /* Project object */;
+}
