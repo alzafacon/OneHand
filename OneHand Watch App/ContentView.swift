@@ -9,14 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Image("clockMask")
+            Image("clockFace")
+            Image("hourHand")
+            Text(getTime())
         }
         .padding()
     }
+}
+
+func getTime() -> String {
+    let formatter = DateFormatter()
+    formatter.timeStyle = .short
+    let dateString = formatter.string(from: Date())
+    return dateString
 }
 
 #Preview {
