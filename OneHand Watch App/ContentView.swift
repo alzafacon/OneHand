@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Image("clockMask")
             Image("clockFace")
             Image("hourHand")
             Text(getTime())
