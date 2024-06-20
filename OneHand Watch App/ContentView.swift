@@ -12,7 +12,6 @@ struct ContentView: View {
         ZStack {
             Image("clockFace")
             Image("hourHand")
-            Text(getTime())
         }
         .padding()
     }
