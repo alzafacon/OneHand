@@ -27,14 +27,19 @@ struct ContentView: View {
         let translation = CGAffineTransform(translationX: -dy, y: dx)
 
         ZStack {
-            Image("clockFace")
+            Image(.clockFaceBig)
+                .interpolation(.none)
+                .resizable()
+                .scaledToFit()
                 .scaleEffect(CGSize(width: scaleFactor, height: scaleFactor))
                 .transformEffect(translation)
-            Image("hourHand")
+            Image(.hourHandBig)
+                .interpolation(.none)
+                .resizable()
+                .scaledToFit()
                 .rotationEffect(.degrees(timeAngle))
                 .scaleEffect(CGSize(width: scaleFactor, height: scaleFactor))
                 .transformEffect(translation)
-                
         }
         .padding()
     }
