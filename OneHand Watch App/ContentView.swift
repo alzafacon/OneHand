@@ -40,10 +40,19 @@ struct ContentView: View {
     }
 }
 
+
 #Preview {
-    Group {
-        ContentView(hour: 7, minute: 45)
-        
-    }
-    
+    ContentView(hour: 1, minute: 30)
+}
+
+#Preview {
+    ContentView(hour: 4, minute: 30)
+}
+
+#Preview {
+    ContentView(hour: 7, minute: 30)
+}
+
+#Preview {
+    ContentView(hour: 10, minute: 30)
 }
