@@ -15,6 +15,7 @@
 		BD4C93A12C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93A02C1D2E1E00D1E5C1 /* OneHand_Watch_AppTests.swift */; };
 		BD4C93AB2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93AA2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift */; };
 		BD4C93AD2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93AC2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift */; };
+		BDCAE9FF2CA3B77100B356D5 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAE9FE2CA3B77100B356D5 /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		BD4C93A62C1D2E1E00D1E5C1 /* OneHand Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneHand Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4C93AA2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHand_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		BD4C93AC2C1D2E1E00D1E5C1 /* OneHand_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHand_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCAE9FE2CA3B77100B356D5 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				BD4C93912C1D2E1C00D1E5C1 /* ContentView.swift */,
 				BD4C93932C1D2E1E00D1E5C1 /* Assets.xcassets */,
 				BD4C93952C1D2E1E00D1E5C1 /* Preview Content */,
+				BDCAE9FE2CA3B77100B356D5 /* Math.swift */,
 			);
 			path = "OneHand Watch App";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				BD4C93922C1D2E1C00D1E5C1 /* ContentView.swift in Sources */,
 				BD4C93902C1D2E1C00D1E5C1 /* OneHandApp.swift in Sources */,
+				BDCAE9FF2CA3B77100B356D5 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

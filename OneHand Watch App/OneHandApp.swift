@@ -11,7 +11,7 @@ import SwiftUI
 struct OneHand_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(hour: 7, minute: 45)
         }
     }
 }
