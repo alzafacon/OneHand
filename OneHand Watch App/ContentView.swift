@@ -28,13 +28,11 @@ struct ContentView: View {
 
         ZStack {
             Image(.clockFaceBig)
-                .interpolation(.none)
                 .resizable()
                 .scaledToFit()
                 .scaleEffect(CGSize(width: scaleFactor, height: scaleFactor))
                 .transformEffect(translation)
             Image(.hourHandBig)
-                .interpolation(.none)
                 .resizable()
                 .scaledToFit()
                 .rotationEffect(.degrees(timeAngle))
