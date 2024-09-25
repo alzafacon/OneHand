@@ -11,7 +11,11 @@ import SwiftUI
 struct OneHand_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(hour: 7, minute: 45)
+            TimelineView(.periodic(from: .now, by: 1)) { currentTime in
+                let hour = Double(Calendar.current.component(.hour, from: currentTime.date))
+                let minute = Double(Calendar.current.component(.minute, from: currentTime.date))
+               return ContentView(hour: hour, minute: minute)
+            }
         }
     }
 }
